@@ -1,0 +1,12 @@
+This is my cv
+
+//how to add a pdf file in a html document?
+<embed src="file_name.pdf" width="800px" height="2100px" />
+
+
+
+<h1>Web Development <a href="development.pdf">***</a></h1>
+        <h5>click to open</h5>
+        <h1>Training Certificate <a href="training.pdf"></a></h1>
+        <h5>click to open</h5>
+

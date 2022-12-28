@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(104, 103, 103);
+    width: 240px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sidebar nav {
+    padding: 5px;
+    height: 100vh;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+    padding: 25px;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    /* background-color: rgb(170, 255, 0); */
+    height: 60vh;
+    width: 80vw;
+    margin: 105px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devPic img {
+    height: 60vh;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about {
+    font-size: 25px;
+}
+
+.moreAbout {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+}
+
+.buttons {
+    margin-top: 30px;
+
+}
+
+.btn {
+    padding: 7px;
+    border-radius: 33px;
+    font-weight: bold;
+    background-color: rgb(88, 105, 181);
+    color: rgb(239, 242, 246);
+    margin: 0 3px;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+
+.btn:hover{
+    background-color: rgb(8, 8, 10);
+}
+
+   /* css for contact form */
+
+.contactform {
+    padding: 0 40px;
+    padding-top: 40px;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.contactform h1 {
+    
+    padding: 10px 0px;
+}
+
+.contactform div{
+    padding: 3px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform div input{
+    width: 31vw;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 3px 0;
+    font-size: 14px;
+    padding: 6px;
+} 
+
+#emailHelp {
+    font-size: 10px;
+    color: forestgreen;
+    margin: 0px 18px;
+    padding: 0px;
+}
+
+#form-check{
+    flex-direction: row;
+    
+}
+
+#form-check input{
+    width: 14px;
+    margin: 4px;
+}
+
+   /* css for intro page */ 
+
+.intro h2{
+    font-family: 'Open Sans', sans-serif;
+    margin: 8px;
+}
+
+.intro p{
+    font-size: 20px;
+    margin: 6px;
+    padding: 6px
+}
+
+.skillcontainer{
+    padding: 8px;
+    margin: 6px;
+}
+
+.skill{
+    height: 8px;
+    background-color: rgb(43, 137, 226);
+    border: 2px solid black;
+}
+
+.skillitem{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    
+}
+
+.hundredhtml{
+    width: 300px;
+    margin: 0 18px;
+}
+
+.hundreddbms{
+    width: 300px;
+    margin: 0 19px;
+}
+
+.eightyreact{
+    width: 240px;
+    margin: 0 28px;
+}
+
+.eightyboot{
+    width: 240px;
+    margin: 0 1px;
+}
+
+.eightycss{
+    width: 240px;
+    margin: 0 35px;
+}
+
+.sixty{
+    width: 180px;
+}
+
+.fifty{
+    width: 150px;
+    margin: 0 40px;
+}
+
+.project h2{
+    font-family: 'Open Sans', sans-serif;
+    margin: 8px;
+}
+
+.skillcontainer2{
+    padding: 8px;
+    margin: 6px;
+}
+
+.skill2{
+    height: 8px;
+    background-color: rgb(173, 221, 114);
+    border: 2px solid black;
+}
+
+.eightycom{
+    width: 240px;
+}
+
+.eightypro{
+    width: 270px;
+    margin: 0 33px;
+}
+
+.eightythin{
+    width: 240px;
+    margin: 0 43px;
+}
+
+.hundredteam{
+    width: 300px;
+    margin: 0 61px;
+}
+
+.hundredlearner{
+    width: 300px;
+    margin: 0 65px;
+}
+
+.hundredtime{
+    width: 280px;
+    margin: 0 21px;
+}
+
+.eightyproblem{
+    width: 250px;
+    margin: 0 0 0 31px;
+}
+
+.projheading{
+    font-family: 'Open Sans', sans-serif;
+    margin: 8px 8px 0 0;
+}
+
+
+.proj{
+    padding: 20px ;
+}
+
+.proj p{
+    font-size: 20px;
+    margin: 0px;
+    padding: 3px;
+}
+
+.projectSidebar{
+    background-color: rgb(104, 103, 103);
+    width: 530px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.projectSidebar nav {
+    padding: 5px;
+    height: 100vh;
+}
+
+.projectSidebar nav li {
+    list-style: none;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.projectSidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.certificate{
+    margin: 27px;
+    padding: 29px;
+    width: -webkit-fill-available;
+}
